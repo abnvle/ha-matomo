@@ -9,7 +9,7 @@
           "token_auth": "Token API (token_auth)"
         },
         "data_description": {
-          "url": "Pełny adres URL Twojej instancji Matomo (np. https://analytics.example.com)",
+          "url": "Pełny adres URL Twojej instancji Matomo, wraz z protokołem",
           "token_auth": "Znajdziesz go w Matomo: Ustawienia → Bezpieczeństwo → Tokeny autoryzacji"
         }
       },

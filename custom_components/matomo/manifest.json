@@ -4,9 +4,9 @@
   "codeowners": ["@abnvle"],
   "config_flow": true,
   "documentation": "https://github.com/abnvle/ha-matomo",
-  "issue_tracker": "https://github.com/abnvle/ha-matomo/issues",
+  "integration_type": "service",
   "iot_class": "cloud_polling",
-  "version": "1.0.0",
+  "issue_tracker": "https://github.com/abnvle/ha-matomo/issues",
   "requirements": [],
-  "integration_type": "service"
+  "version": "1.0.0"
 }

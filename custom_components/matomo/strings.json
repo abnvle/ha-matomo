@@ -9,7 +9,7 @@
           "token_auth": "API Token (token_auth)"
         },
         "data_description": {
-          "url": "Full URL to your Matomo instance (e.g. https://analytics.example.com)",
+          "url": "Full URL to your Matomo instance, including the protocol",
           "token_auth": "Found in Matomo: Settings → Security → Auth Tokens"
         }
       },
