@@ -1,0 +1,62 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Połączenie z Matomo",
+        "description": "Podaj adres URL instancji Matomo oraz token uwierzytelniający.",
+        "data": {
+          "url": "Adres URL Matomo",
+          "token_auth": "Token API (token_auth)"
+        },
+        "data_description": {
+          "url": "Pełny adres URL Twojej instancji Matomo (np. https://analytics.example.com)",
+          "token_auth": "Znajdziesz go w Matomo: Ustawienia → Bezpieczeństwo → Tokeny autoryzacji"
+        }
+      },
+      "site": {
+        "title": "Wybierz stronę",
+        "description": "Wybierz stronę do monitorowania oraz opcjonalne statystyki zbiorcze.",
+        "data": {
+          "site_id": "Strona internetowa",
+          "include_aggregate": "Dołącz statystyki zbiorcze dla wszystkich stron"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można połączyć się z instancją Matomo",
+      "invalid_auth": "Nieprawidłowy token uwierzytelniający",
+      "no_sites": "Nie znaleziono stron dla tego tokena"
+    },
+    "abort": {
+      "already_configured": "Ta strona jest już skonfigurowana"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "unique_visitors_today": { "name": "Unikalni odwiedzający dziś" },
+      "unique_visitors_week": { "name": "Unikalni odwiedzający w tym tygodniu" },
+      "unique_visitors_month": { "name": "Unikalni odwiedzający w tym miesiącu" },
+      "pageviews_today": { "name": "Odsłony dziś" },
+      "pageviews_week": { "name": "Odsłony w tym tygodniu" },
+      "pageviews_month": { "name": "Odsłony w tym miesiącu" },
+      "visits_today": { "name": "Wizyty dziś" },
+      "visits_week": { "name": "Wizyty w tym tygodniu" },
+      "visits_month": { "name": "Wizyty w tym miesiącu" },
+      "actions_today": { "name": "Akcje dziś" },
+      "actions_week": { "name": "Akcje w tym tygodniu" },
+      "actions_month": { "name": "Akcje w tym miesiącu" },
+      "live_visitors": { "name": "Odwiedzający na żywo" },
+      "live_visits": { "name": "Wizyty na żywo" },
+      "live_actions": { "name": "Akcje na żywo" },
+      "all_sites_visits_today": { "name": "Wszystkie strony – wizyty dziś" },
+      "all_sites_visits_week": { "name": "Wszystkie strony – wizyty w tym tygodniu" },
+      "all_sites_visits_month": { "name": "Wszystkie strony – wizyty w tym miesiącu" },
+      "all_sites_pageviews_today": { "name": "Wszystkie strony – odsłony dziś" },
+      "all_sites_pageviews_week": { "name": "Wszystkie strony – odsłony w tym tygodniu" },
+      "all_sites_pageviews_month": { "name": "Wszystkie strony – odsłony w tym miesiącu" },
+      "all_sites_actions_today": { "name": "Wszystkie strony – akcje dziś" },
+      "all_sites_actions_week": { "name": "Wszystkie strony – akcje w tym tygodniu" },
+      "all_sites_actions_month": { "name": "Wszystkie strony – akcje w tym miesiącu" }
+    }
+  }
+}

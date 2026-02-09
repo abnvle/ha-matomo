@@ -1,0 +1,62 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Matomo Connection",
+        "description": "Enter your Matomo instance URL and authentication token.",
+        "data": {
+          "url": "Matomo URL",
+          "token_auth": "API Token (token_auth)"
+        },
+        "data_description": {
+          "url": "Full URL to your Matomo instance (e.g. https://analytics.example.com)",
+          "token_auth": "Found in Matomo: Settings → Security → Auth Tokens"
+        }
+      },
+      "site": {
+        "title": "Select Site",
+        "description": "Choose a site to monitor and optional aggregate statistics.",
+        "data": {
+          "site_id": "Website",
+          "include_aggregate": "Include aggregate stats for all sites"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Matomo instance",
+      "invalid_auth": "Invalid authentication token",
+      "no_sites": "No sites found for this token"
+    },
+    "abort": {
+      "already_configured": "This site is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "unique_visitors_today": { "name": "Unique visitors today" },
+      "unique_visitors_week": { "name": "Unique visitors this week" },
+      "unique_visitors_month": { "name": "Unique visitors this month" },
+      "pageviews_today": { "name": "Page views today" },
+      "pageviews_week": { "name": "Page views this week" },
+      "pageviews_month": { "name": "Page views this month" },
+      "visits_today": { "name": "Visits today" },
+      "visits_week": { "name": "Visits this week" },
+      "visits_month": { "name": "Visits this month" },
+      "actions_today": { "name": "Actions today" },
+      "actions_week": { "name": "Actions this week" },
+      "actions_month": { "name": "Actions this month" },
+      "live_visitors": { "name": "Live visitors" },
+      "live_visits": { "name": "Live visits" },
+      "live_actions": { "name": "Live actions" },
+      "all_sites_visits_today": { "name": "All sites visits today" },
+      "all_sites_visits_week": { "name": "All sites visits this week" },
+      "all_sites_visits_month": { "name": "All sites visits this month" },
+      "all_sites_pageviews_today": { "name": "All sites page views today" },
+      "all_sites_pageviews_week": { "name": "All sites page views this week" },
+      "all_sites_pageviews_month": { "name": "All sites page views this month" },
+      "all_sites_actions_today": { "name": "All sites actions today" },
+      "all_sites_actions_week": { "name": "All sites actions this week" },
+      "all_sites_actions_month": { "name": "All sites actions this month" }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "matomo",
+  "name": "Matomo Analytics",
+  "codeowners": ["@abnvle"],
+  "config_flow": true,
+  "documentation": "https://github.com/abnvle/ha-matomo",
+  "issue_tracker": "https://github.com/abnvle/ha-matomo/issues",
+  "iot_class": "cloud_polling",
+  "version": "1.0.0",
+  "requirements": [],
+  "integration_type": "service"
+}
