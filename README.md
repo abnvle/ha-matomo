@@ -2,7 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/v/release/abnvle/ha-matomo)](https://github.com/abnvle/ha-matomo/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/abnvle/ha-matomo)](https://github.com/abnvle/ha-matomo/blob/main/LICENSE)
 
 Custom Home Assistant integration for [Matomo Analytics](https://matomo.org/) — the leading open-source web analytics platform.
 
@@ -78,8 +78,8 @@ The token needs at least **view** access to the site(s) you want to monitor.
 
 ## Author
 
-**Lukasz Kozik** — [lkozik@evilit.pl](mailto:lkozik@evilit.pl)
+**Łukasz Kozik** — [lkozik@evilit.pl](mailto:lkozik@evilit.pl)
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/abnvle/ha-matomo/blob/main/LICENSE)
