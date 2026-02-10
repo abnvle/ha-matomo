@@ -1,0 +1,62 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion à Matomo",
+        "description": "Indiquer l'URL de votre instance Matomo et le jeton d'identification.",
+        "data": {
+          "url": "URL Matomo",
+          "token_auth": "Jeton API (token_auth)"
+        },
+        "data_description": {
+          "url": "URL complète de votre instance Matomo, y compris le protocole",
+          "token_auth": "Se trouve dans Matomo: Personnel -> Sécurité -> Jetons d'authentification"
+        }
+      },
+      "site": {
+        "title": "Choisir le Site",
+        "description": "Choisir un site à surveiller et les statistiques optionnelles.",
+        "data": {
+          "site_id": "Site Web",
+          "include_aggregate": "Inclure les données agrégées pour tous les sites"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connexion impossible à l'instance Matomo",
+      "invalid_auth": "Jeton d'authentification invalide",
+      "no_sites": "Aucun site trouvé pour ce jeton"
+    },
+    "abort": {
+      "already_configured": "Ce site est déja configuré"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "unique_visitors_today": { "name": "Visiteurs uniques du jour" },
+      "unique_visitors_week": { "name": "Visiteurs uniques de la semaine" },
+      "unique_visitors_month": { "name": "Visiteurs uniques du mois" },
+      "pageviews_today": { "name": "Pages vues aujourd'hui" },
+      "pageviews_week": { "name": "Pages vues cette semaine" },
+      "pageviews_month": { "name": "Pages vues ce mois" },
+      "visits_today": { "name": "Visites du jour" },
+      "visits_week": { "name": "Visites de la semaine" },
+      "visits_month": { "name": "Visites du mois" },
+      "actions_today": { "name": "Actions du jour" },
+      "actions_week": { "name": "Actions de la semaine" },
+      "actions_month": { "name": "Actions du mois" },
+      "live_visitors": { "name": "Visiteurs en direct" },
+      "live_visits": { "name": "Visites en directe" },
+      "live_actions": { "name": "Actions en direct" },
+      "all_sites_visits_today": { "name": "Visites de tous les sites aujourd'hui" },
+      "all_sites_visits_week": { "name": "Visites de tous les sites cette semaine" },
+      "all_sites_visits_month": { "name": "Visites de tous les sites ce mois" },
+      "all_sites_pageviews_today": { "name": "Pages vues de tous les sites aujourd'hui" },
+      "all_sites_pageviews_week": { "name": "Pages vues de tous les sites cette semaine" },
+      "all_sites_pageviews_month": { "name": "Pages vues de tous les sites ce mois" },
+      "all_sites_actions_today": { "name": "Actions de tous les sites aujourd'hui" },
+      "all_sites_actions_week": { "name": "Actions de tous les sites cette semaine" },
+      "all_sites_actions_month": { "name": "Actions de tous les sites ce mois" }
+    }
+  }
+}
