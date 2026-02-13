@@ -76,6 +76,14 @@ The token needs at least **view** access to the site(s) you want to monitor.
 - Matomo 4.x or newer (token sent via POST for security)
 - API token with at least **view** access
 
+## Screenshots
+
+![Sensors](docs/screenshot1.png)
+
+![Sensors](docs/screenshot2.png)
+
+![Setup](docs/screenshot2.png)
+
 ## Author
 
 **Łukasz Kozik** — [lkozik@evilit.pl](mailto:lkozik@evilit.pl)
