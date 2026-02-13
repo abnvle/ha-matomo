@@ -78,11 +78,9 @@ The token needs at least **view** access to the site(s) you want to monitor.
 
 ## Screenshots
 
-![Sensors](docs/screenshot1.png)
-
-![Sensors](docs/screenshot2.png)
-
-![Setup](docs/screenshot2.png)
+| Sensors | Sensors | Setup |
+|---|---|---|
+| ![Sensors](docs/screenshot1.png) | ![Sensors](docs/screenshot2.png) | ![Setup](docs/screenshot3.png) |
 
 ## Author
 
